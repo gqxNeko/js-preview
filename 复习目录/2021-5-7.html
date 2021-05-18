@@ -10,13 +10,14 @@
 
 <body>
   <script>
-    function Person(name, age) {
+    function Person() {
       // var this = {}
-      this.name = name
-      this.age = age
+      this.name = '张三'
+      this.age = '23'
       // return this
     }
-    console.log(new Person('张三', 23))
+    var person = new Person()
+    console.log(person)
   </script>
 </body>
 
