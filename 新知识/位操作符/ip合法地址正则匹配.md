@@ -9,11 +9,11 @@ let str2 = '255.255.255.256'
 let str3 = '1.1.1'
 let str4 = 'a.b.1.4'
 let str5 = '1.1.1.1'
-console.log(reg.test(str))
-console.log(reg.test(str2))
-console.log(reg.test(str3))
-console.log(reg.test(str4))
-console.log(reg.test(str5))
+console.log(reg.test(str))//false
+console.log(reg.test(str2))//false
+console.log(reg.test(str3))//false
+console.log(reg.test(str4))//false
+console.log(reg.test(str5))//true
 ```
 ## 注意的地方
 * `(?=\b|\D)` 用于界定单词和非数字边界
